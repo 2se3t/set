@@ -1,0 +1,130 @@
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.hero h1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 7vw;
+}
+.hero p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 3vw;
+}
+
+
+@media (max-width:768px) {
+    .hero h1{
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 300;
+        font-size: 10vw;
+    }
+    .hero p{
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 300;
+        font-size: 5vw;
+    }
+    #about p{
+        padding-bottom: 25vh;
+    }
+}
+
+
+@media (max-width:768px) {
+    .hero h1 {
+        font-size: 10vw;
+    }
+    .hero p {
+        font-size: 5vw;
+    }
+    #about p {
+        padding-bottom: 25vh;
+    }
+
+    #advant{
+        padding-bottom: 15vh !important;
+        font-size: 3vh !important;
+    }
+    .block {
+        padding-top: 8vh ;
+        float: none !important; 
+        width: 60% !important;
+        padding-left: 20vw !important;
+    }
+
+}
+
+.block i {
+    font-size: 24px; 
+    color: #0a0a0a;
+
+}
+
+
+#about{
+    color: #dadada;
+}
+
+#about h1{
+    padding-top: 3vh;
+}
+
+
+#about p{
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+}
+#about h1, p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+
+#advant{
+    color: #000000;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    min-height: 0;
+    font-size: 2vh;
+}
+
+.block h2{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #dadada;
+    font-weight: 300;
+}
+
+.block{
+    width: 22%;
+    float: left;
+    padding-left: 8.5vw;
+}
+
+.foot h3{
+    padding-top: 3vh;
+    color: #c2c2c2;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+.foot i{
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    font-size: 25px;
+    width: 50px;
+    color: #b1b1b1;
+}
+
+.foot h4{
+    text-align: left ;
+    font-size: 20px;
+    font-weight: 200;
+    color: #b1b1b1;
+}
+
+::selection {
+    background: #fff89c; /* Цвет фона */
+    color: #000000; /* Цвет текста */
+   }
+
